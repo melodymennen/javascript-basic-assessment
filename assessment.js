@@ -120,10 +120,14 @@ function removeItem (arr, str){
 // repeats strings. example 4->8, 2.5->5, 'Awesome'->'AwesomeAwesome'
 
 function doubleTheFun (parameter) {
-	
 	return parameter + parameter
-
 }
+
+// function doubleTheFun(val) {
+//     let num = +val
+//   if(isNaN(val)) return val + val
+//   else return num + num
+// }
 
 // #12 Write function getValueOfProperty that takes in an object, and the name of a property on the object
 // return the value from the object that corresponds to the property
